@@ -29,14 +29,14 @@ class _SplashScreenState extends State<SplashScreen> {
     await Future.delayed(Duration(seconds: 3));
     WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
       Get.offAllNamed(Routes.LOGIN);
-    }); // Splash이 완성 되었을 때 액션
+    });
   }
 
   Future<void> _goToHome() async {
     await Future.delayed(Duration(seconds: 3));
     WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
       Get.offAllNamed(Routes.HOME);
-    }); // Splash이 완성 되었을 때 액션
+    });
   }
 
   Widget splash() {
