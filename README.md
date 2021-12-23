@@ -1,6 +1,6 @@
 # advanced_flutter
 
-A new Flutter project.
+Application development practice using GetX.
 
 ## Getting Started
 
