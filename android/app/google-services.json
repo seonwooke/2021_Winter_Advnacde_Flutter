@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "347545214179",
+    "project_id": "winter-practice",
+    "storage_bucket": "winter-practice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347545214179:android:5862f315686dafb06779d6",
+        "android_client_info": {
+          "package_name": "com.oceansalmon.practice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347545214179-6n79a2lqlrecel667aeakdv139r7f6lh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oceansalmon.practice",
+            "certificate_hash": "6682c53c0c492897b7d34c5f7c78d64100a96a2f"
+          }
+        },
+        {
+          "client_id": "347545214179-cr2r56rr49pgr9mldcr9ms3psvrvcf8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYk37dHeejQSmhvOlhRfsPgXEOy7WuiwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347545214179-cr2r56rr49pgr9mldcr9ms3psvrvcf8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
