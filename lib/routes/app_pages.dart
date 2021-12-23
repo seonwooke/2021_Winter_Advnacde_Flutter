@@ -1,4 +1,4 @@
-import 'package:advanced_flutter/bindings/sign_up_binding.dart';
+import 'package:advanced_flutter/bindings/binding.dart';
 import 'package:advanced_flutter/pages/home_screen.dart';
 import 'package:advanced_flutter/pages/login_screen.dart';
 import 'package:advanced_flutter/pages/sign_up_screen.dart';

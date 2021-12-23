@@ -1,5 +1,4 @@
 import 'package:advanced_flutter/controllers/auth_controller.dart';
-import 'package:advanced_flutter/controllers/sign_up_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

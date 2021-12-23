@@ -1,18 +1,5 @@
-// import 'package:freezed_annotation/freezed_annotation.dart';
-//
-// part 'user.freezed.dart';
-// part 'user.g.dart';
-//
-// @freezed
-// class UserModel with _$UserModel {
-//   factory UserModel({
-//     required String name,
-//     required String email,
-//     required String password,
-//   }) = _UserModel;
-//
-//   factory UserModel.fromJson(Map<String, dynamic> json) => _$UserModelFromJson(json);
-// }
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 class UserModel {
   String? name;
   String? email;
@@ -23,4 +10,9 @@ class UserModel {
     this.email,
     this.password
   });
+
+  UserModel.fromSnapshot(DocumentSnapshot snapshot)
+      : name = snapshot['name'],
+        email = snapshot['email'],
+        password = snapshot['password'];
 }
