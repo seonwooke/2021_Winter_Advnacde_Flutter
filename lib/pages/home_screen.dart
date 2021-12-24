@@ -6,6 +6,7 @@ import 'package:advanced_flutter/widgets/loading_widget.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
 
 class HomeScreen extends StatelessWidget {
   final authController = Get.find<AuthController>();
@@ -17,7 +18,7 @@ class HomeScreen extends StatelessWidget {
         future: FirestoreService.getUser(authController.firebaseUser!.email.toString()),
         builder: (context, snapshot) {
           Future<UserModel> userModel = FirestoreService.getUser(authController.firebaseUser!.email.toString());
-          if (snapshot.connectionState == ConnectionState.done)
+          if (snapshot.connectionState == ConnectionState.done) {
             return Scaffold(
               appBar: AppBar(
                 title: Text('HOME'),
@@ -46,10 +47,28 @@ class HomeScreen extends StatelessWidget {
                     Text(
                       userModel.toString(),
                     ),
+                    SizedBox(
+                      height: 40,
+                    ),
+                    Stack(
+                      children: [
+                        Lottie.asset('assets/lotties/light.json'),
+                        Positioned(
+                          top: 155,
+                          left: 155,
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            color: Colors.blueAccent,
+                          ),
+                        )
+                      ],
+                    )
                   ],
                 ),
               ),
             );
+          }
           return Center(
             child: loadingWidget(),
           );

@@ -3,6 +3,8 @@ application
 INJECTED from /Users/seonwookkim/Documents/advanced_flutter/android/app/src/main/AndroidManifest.xml:3:4-33:19
 MERGED from [:firebase_auth] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
@@ -11,6 +13,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradl
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a2229feef7fd78aee80f70d24b1c1d5f/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a2229feef7fd78aee80f70d24b1c1d5f/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/4ad056ee21ec8d30b82f1315f22c78bc/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
@@ -40,10 +44,12 @@ INJECTED from /Users/seonwookkim/Documents/advanced_flutter/android/app/src/main
 INJECTED from /Users/seonwookkim/Documents/advanced_flutter/android/app/src/main/AndroidManifest.xml:1:1-34:12
 MERGED from /Users/seonwookkim/Documents/advanced_flutter/android/app/src/main/AndroidManifest.xml:1:1-34:12
 MERGED from [:firebase_auth] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a2229feef7fd78aee80f70d24b1c1d5f/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/4ad056ee21ec8d30b82f1315f22c78bc/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
@@ -107,6 +113,8 @@ INJECTED from /Users/seonwookkim/Documents/advanced_flutter/android/app/src/main
 INJECTED from /Users/seonwookkim/Documents/advanced_flutter/android/app/src/main/AndroidManifest.xml
 MERGED from [:firebase_auth] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -115,6 +123,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradl
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a2229feef7fd78aee80f70d24b1c1d5f/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a2229feef7fd78aee80f70d24b1c1d5f/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/4ad056ee21ec8d30b82f1315f22c78bc/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
@@ -209,10 +219,14 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradl
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
 	android:name
 		ADDED from /Users/seonwookkim/Documents/advanced_flutter/android/app/src/debug/AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:firebase_auth] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
@@ -221,6 +235,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradl
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
 MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
 	android:exported
@@ -237,6 +253,12 @@ ADDED from [:firebase_auth] /Users/seonwookkim/Documents/advanced_flutter/build/
 		ADDED from [:firebase_auth] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_auth] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
 ADDED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
@@ -253,6 +275,8 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
 MERGED from [io.grpc:grpc-android:1.41.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a5175f94a7955273d7c099c637e49eaa/jetified-grpc-android-1.41.0/AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.41.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a5175f94a7955273d7c099c637e49eaa/jetified-grpc-android-1.41.0/AndroidManifest.xml:11:5-79
 	android:name
@@ -331,6 +355,12 @@ ADDED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.g
 		ADDED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:22:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a43864ea4e098ef6189d5e2b76fd253d/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
 	android:authorities
