@@ -23,6 +23,7 @@ dependencies:
   build_runner: ^2.1.7
   firebase_storage: ^10.2.4
   lottie: ^1.2.1
+  getwidget: ^2.0.4
 
 dev_dependencies:
   flutter_test:
@@ -35,3 +36,4 @@ flutter:
 
   assets:
     - assets/lotties/
+    - assets/images/

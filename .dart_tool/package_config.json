@@ -296,6 +296,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "getwidget",
+      "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/getwidget-2.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "glob",
       "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/glob-2.0.2",
       "packageUri": "lib/",
@@ -536,7 +542,7 @@
       "languageVersion": "2.15"
     }
   ],
-  "generated": "2021-12-24T05:13:06.953649Z",
+  "generated": "2021-12-26T09:46:07.046550Z",
   "generator": "pub",
   "generatorVersion": "2.15.1"
 }
