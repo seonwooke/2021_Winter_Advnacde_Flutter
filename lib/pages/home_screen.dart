@@ -11,7 +11,6 @@ import 'package:lottie/lottie.dart';
 class HomeScreen extends StatelessWidget {
   final authController = Get.find<AuthController>();
 
-
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
@@ -32,40 +31,42 @@ class HomeScreen extends StatelessWidget {
                   )
                 ],
               ),
-              body: Center(
-                child: Column(
-                  children: [
-                    SizedBox(
-                      height: 40,
-                    ),
-                    Text(
+              body: ListView(
+                children: [
+                  SizedBox(
+                    height: 40,
+                  ),
+                  Center(
+                    child: Text(
                       authController.firebaseUser!.email.toString(),
                     ),
-                    SizedBox(
-                      height: 40,
-                    ),
-                    Text(
+                  ),
+                  SizedBox(
+                    height: 40,
+                  ),
+                  Center(
+                    child: Text(
                       userModel.toString(),
                     ),
-                    SizedBox(
-                      height: 40,
-                    ),
-                    Stack(
-                      children: [
-                        Lottie.asset('assets/lotties/light.json'),
-                        Positioned(
-                          top: 155,
-                          left: 155,
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            color: Colors.blueAccent,
-                          ),
-                        )
-                      ],
-                    )
-                  ],
-                ),
+                  ),
+                  SizedBox(
+                    height: 40,
+                  ),
+                  Stack(
+                    children: [
+                      Lottie.asset('assets/lotties/light.json'),
+                      Positioned(
+                        top: 155,
+                        left: 155,
+                        child: Container(
+                          width: 100,
+                          height: 100,
+                          color: Colors.blueAccent,
+                        ),
+                      )
+                    ],
+                  )
+                ],
               ),
             );
           }

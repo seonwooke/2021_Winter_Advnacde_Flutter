@@ -6,6 +6,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
+import 'controllers/navigation_controller.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized(); // 공부하기
   await Firebase.initializeApp();
@@ -13,6 +15,7 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
+  final navigationController = Get.put(NavigationController());
   final authController = Get.put(AuthController());
 
   @override

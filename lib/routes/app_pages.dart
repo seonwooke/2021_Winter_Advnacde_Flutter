@@ -1,4 +1,5 @@
 import 'package:advanced_flutter/bindings/binding.dart';
+import 'package:advanced_flutter/pages/bottom_navigation_screen.dart';
 import 'package:advanced_flutter/pages/home_screen.dart';
 import 'package:advanced_flutter/pages/login_screen.dart';
 import 'package:advanced_flutter/pages/my_page_screen.dart';
@@ -27,6 +28,10 @@ class AppPages {
     GetPage(
         name: Routes.MYPAGE,
         page: () => MyPageScreen()
+    ),
+    GetPage(
+        name: Routes.NAVIGATION,
+        page: () => BottomNavigationScreen()
     ),
     GetPage(
       name: Routes.SIGNUP,

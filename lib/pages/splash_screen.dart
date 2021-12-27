@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    (authController.firebaseUser == null) ? _goToLogin() : _goToMyPage();
+    (authController.firebaseUser == null) ? _goToLogin() : _goToStarting();
   }
 
   @override
@@ -32,11 +32,10 @@ class _SplashScreenState extends State<SplashScreen> {
     });
   }
 
-  Future<void> _goToMyPage() async {
+  Future<void> _goToStarting() async {
     await Future.delayed(Duration(seconds: 3));
     WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
-      Get.offAllNamed(Routes.MYPAGE);
-      // Get.offAllNamed(Routes.HOME);
+      Get.offAllNamed(Routes.NAVIGATION);
     });
   }
 
