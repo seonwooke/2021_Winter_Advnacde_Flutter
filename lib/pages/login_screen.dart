@@ -11,9 +11,10 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.teal,
         automaticallyImplyLeading: false,
         centerTitle: true,
-        title: Text('Login'),
+        title: Text('LOGIN'),
       ),
       body: Center(
         child: Padding(
@@ -36,17 +37,21 @@ class LoginScreen extends StatelessWidget {
                   controller: passwordController,
                   obscureText: true,
                 ),
+                SizedBox(height: 80),
                 ElevatedButton(
-                    onPressed: () async {
-                      await authController.signIn(emailController.text, passwordController.text);
-                      Get.toNamed('/home');
-                    },
-                    child: Text('Log In')
+                  onPressed: () async {
+                    await authController.signIn(
+                        emailController.text, passwordController.text);
+                    Get.offAllNamed('/navigation');
+                  },
+                  child: Text('LOGIN'),
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.teal,
+                      minimumSize: Size(300, 50),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(32),
+                      )),
                 ),
-                TextButton(
-                    onPressed: () => Get.toNamed('/signUp'),
-                    child: Text('Sign Up')
-                )
               ],
             ),
           ),

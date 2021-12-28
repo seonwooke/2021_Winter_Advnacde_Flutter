@@ -5,6 +5,7 @@ import 'package:advanced_flutter/pages/login_screen.dart';
 import 'package:advanced_flutter/pages/my_page_screen.dart';
 import 'package:advanced_flutter/pages/sign_up_screen.dart';
 import 'package:advanced_flutter/pages/splash_screen.dart';
+import 'package:advanced_flutter/pages/starting_screen.dart';
 import 'package:get/get.dart';
 
 part 'app_routes.dart';
@@ -32,6 +33,10 @@ class AppPages {
     GetPage(
         name: Routes.NAVIGATION,
         page: () => BottomNavigationScreen()
+    ),
+    GetPage(
+        name: Routes.STARTING,
+        page: () => StartingScreen()
     ),
     GetPage(
       name: Routes.SIGNUP,

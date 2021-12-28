@@ -1,6 +1,7 @@
 import 'package:advanced_flutter/controllers/navigation_controller.dart';
 import 'package:advanced_flutter/pages/home_screen.dart';
 import 'package:advanced_flutter/pages/my_page_screen.dart';
+import 'package:advanced_flutter/pages/starting_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -18,7 +19,7 @@ class BottomNavigationScreen extends StatelessWidget {
               index: controller.tabIndex,
               children: [
                 HomeScreen(),
-                MyPageScreen(),
+                StartingScreen(),
                 MyPageScreen(),
                 MyPageScreen(),
               ],
@@ -31,19 +32,22 @@ class BottomNavigationScreen extends StatelessWidget {
               BottomNavigationBarItem(
                 icon: Icon(CupertinoIcons.home),
                 label: 'HOME',
-                backgroundColor: Colors.blueAccent,
+                backgroundColor: Colors.teal,
               ),
               BottomNavigationBarItem(
-                  icon: Icon(CupertinoIcons.sportscourt),
-                  label: 'NEWS'
+                icon: Icon(CupertinoIcons.sportscourt),
+                label: 'NEWS',
+                backgroundColor: Colors.teal,
               ),
               BottomNavigationBarItem(
-                  icon: Icon(CupertinoIcons.bell),
-                  label: 'ALERTS'
+                icon: Icon(CupertinoIcons.bell),
+                label: 'ALERTS',
+                backgroundColor: Colors.teal,
               ),
               BottomNavigationBarItem(
-                  icon: Icon(CupertinoIcons.person_alt_circle),
-                  label: 'MYPAGE'
+                icon: Icon(CupertinoIcons.person_alt_circle),
+                label: 'MYPAGE',
+                backgroundColor: Colors.teal,
               ),
             ],
           ),

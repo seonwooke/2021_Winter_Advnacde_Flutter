@@ -21,12 +21,14 @@ class HomeScreen extends StatelessWidget {
             return Scaffold(
               appBar: AppBar(
                 title: Text('HOME'),
+                centerTitle: true,
+                backgroundColor: Colors.teal,
                 actions: [
                   IconButton(
                     icon: Icon(Icons.exit_to_app),
                     onPressed: () async {
                       await FirebaseAuth.instance.signOut();
-                      Get.toNamed('/login');
+                      Get.offAllNamed('/starting');
                     },
                   )
                 ],
