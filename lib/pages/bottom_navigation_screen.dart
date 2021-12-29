@@ -1,10 +1,13 @@
 import 'package:advanced_flutter/controllers/navigation_controller.dart';
 import 'package:advanced_flutter/pages/home_screen.dart';
 import 'package:advanced_flutter/pages/my_page_screen.dart';
+import 'package:advanced_flutter/pages/search_screen.dart';
 import 'package:advanced_flutter/pages/starting_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import 'chatting_screen.dart';
 
 class BottomNavigationScreen extends StatelessWidget {
   final navigationController = Get.find<NavigationController>();
@@ -19,8 +22,8 @@ class BottomNavigationScreen extends StatelessWidget {
               index: controller.tabIndex,
               children: [
                 HomeScreen(),
-                StartingScreen(),
-                MyPageScreen(),
+                SearchScreen(),
+                ChattingScreen(),
                 MyPageScreen(),
               ],
             ),

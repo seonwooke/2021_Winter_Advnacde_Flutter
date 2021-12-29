@@ -13,68 +13,23 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder(
-        future: FirestoreService.getUser(authController.firebaseUser!.email.toString()),
-        builder: (context, snapshot) {
-          Future<UserModel> userModel = FirestoreService.getUser(authController.firebaseUser!.email.toString());
-          if (snapshot.connectionState == ConnectionState.done) {
-            return Scaffold(
-              appBar: AppBar(
-                title: Text('HOME'),
-                centerTitle: true,
-                backgroundColor: Colors.teal,
-                actions: [
-                  IconButton(
-                    icon: Icon(Icons.exit_to_app),
-                    onPressed: () async {
-                      await FirebaseAuth.instance.signOut();
-                      Get.offAllNamed('/starting');
-                    },
-                  )
-                ],
-              ),
-              body: ListView(
-                children: [
-                  SizedBox(
-                    height: 40,
-                  ),
-                  Center(
-                    child: Text(
-                      authController.firebaseUser!.email.toString(),
-                    ),
-                  ),
-                  SizedBox(
-                    height: 40,
-                  ),
-                  Center(
-                    child: Text(
-                      userModel.toString(),
-                    ),
-                  ),
-                  SizedBox(
-                    height: 40,
-                  ),
-                  Stack(
-                    children: [
-                      Lottie.asset('assets/lotties/light.json'),
-                      Positioned(
-                        top: 155,
-                        left: 155,
-                        child: Container(
-                          width: 100,
-                          height: 100,
-                          color: Colors.blueAccent,
-                        ),
-                      )
-                    ],
-                  )
-                ],
-              ),
-            );
-          }
-          return Center(
-            child: loadingWidget(),
-          );
-        });
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('SEONWOOK KIM'),
+        centerTitle: true,
+        backgroundColor: Colors.teal,
+      ),
+      body: ListView(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: SizedBox(
+              height: 200,
+              child: Image.asset('assets/images/leo.jpeg'),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }

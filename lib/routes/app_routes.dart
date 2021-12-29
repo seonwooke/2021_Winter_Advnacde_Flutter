@@ -8,4 +8,6 @@ abstract class Routes {
   static const MYPAGE = '/myPage';
   static const NAVIGATION = '/navigation';
   static const STARTING = '/starting';
+  static const CHATTING = '/chatting';
+  static const SEARCH = '/search';
 }
