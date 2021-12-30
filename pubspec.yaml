@@ -24,6 +24,8 @@ dependencies:
   firebase_storage: ^10.2.4
   lottie: ^1.2.1
   getwidget: ^2.0.4
+  syncfusion_flutter_charts: ^19.4.40
+  cached_network_image: ^3.2.0
 
 dev_dependencies:
   flutter_test:

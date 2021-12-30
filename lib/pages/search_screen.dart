@@ -1,6 +1,5 @@
 import 'package:advanced_flutter/controllers/auth_controller.dart';
 import 'package:advanced_flutter/models/user_model.dart';
-import 'package:advanced_flutter/services/constant_service.dart';
 import 'package:advanced_flutter/services/firestore_service.dart';
 import 'package:advanced_flutter/widgets/loading_widget.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -75,9 +74,11 @@ class SearchScreen extends StatelessWidget {
               ),
             );
           }
-          return Center(
-            child: loadingWidget(),
-          );
+          else {
+            return Center(
+              child: loadingWidget(),
+            );
+          }
         });
   }
 }

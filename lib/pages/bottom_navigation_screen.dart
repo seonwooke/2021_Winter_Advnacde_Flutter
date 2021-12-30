@@ -9,7 +9,12 @@ import 'package:get/get.dart';
 
 import 'chatting_screen.dart';
 
-class BottomNavigationScreen extends StatelessWidget {
+class BottomNavigationScreen extends StatefulWidget {
+  @override
+  State<BottomNavigationScreen> createState() => _BottomNavigationScreenState();
+}
+
+class _BottomNavigationScreenState extends State<BottomNavigationScreen> {
   final navigationController = Get.find<NavigationController>();
 
   @override

@@ -1,3 +1,4 @@
+import 'package:advanced_flutter/models/user_model.dart';
 import 'package:advanced_flutter/services/firestore_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
@@ -8,6 +9,8 @@ class AuthController extends GetxController {
 
   final Rxn<User> _firebaseUser = Rxn<User>();
   User? get firebaseUser => _firebaseUser.value;
+
+  RxList<UserModel> userList = <UserModel>[].obs;
 
   @override
   void onInit() {
