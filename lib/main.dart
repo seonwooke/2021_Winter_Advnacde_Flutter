@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       designSize: Size(375, 800),
       builder: () => GetMaterialApp(
-        title: 'BoilerPlate',
+        title: 'PRIFIT',
         initialRoute: AppPages.INITIAL,
         getPages: AppPages.routes, // 여기 안에 있는 라우터들을 페이지로 사용하겠다
         theme: ThemeData(
