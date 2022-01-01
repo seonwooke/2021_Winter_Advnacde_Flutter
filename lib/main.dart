@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         initialRoute: AppPages.INITIAL,
         getPages: AppPages.routes, // 여기 안에 있는 라우터들을 페이지로 사용하겠다
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primarySwatch: Colors.teal,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
       ),
