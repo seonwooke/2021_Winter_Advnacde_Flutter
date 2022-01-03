@@ -52,6 +52,12 @@ class SignUpScreen extends StatelessWidget {
                     //   // await Get.offAll('/home');
                     // }
                   },
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.teal,
+                      minimumSize: Size(300, 50),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(32),
+                      )),
                   child: Text('Sign Up'),
                 )
               ],
