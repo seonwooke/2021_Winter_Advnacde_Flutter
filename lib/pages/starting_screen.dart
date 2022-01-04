@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 class StartingScreen extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -11,7 +11,7 @@ class StartingScreen extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(
-              height: 400,
+              height: ScreenUtil().setHeight(600),
             ),
             ElevatedButton(
               onPressed: () {
@@ -19,19 +19,18 @@ class StartingScreen extends StatelessWidget {
               },
               child: Text('LOGIN'),
               style: ElevatedButton.styleFrom(
-                primary: Colors.teal,
-                minimumSize: Size(300, 50),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(32),
-                )
-              ),
+                  primary: Colors.teal,
+                  minimumSize: Size(300, 50),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(32),
+                  )),
             ),
             SizedBox(
-              height: 16,
+              height: ScreenUtil().setHeight(16),
             ),
             OutlinedButton(
               onPressed: () {
-                Get.offAllNamed('/signUp');
+                Get.toNamed('/signUp');
               },
               child: Text('SIGN UP'),
               style: OutlinedButton.styleFrom(
@@ -39,8 +38,7 @@ class StartingScreen extends StatelessWidget {
                   minimumSize: Size(300, 50),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(32),
-                  )
-              ),
+                  )),
             ),
           ],
         ),

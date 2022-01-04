@@ -1,5 +1,6 @@
 import 'package:advanced_flutter/controllers/auth_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -29,7 +30,9 @@ class LoginScreen extends StatelessWidget {
                   ),
                   controller: emailController,
                 ),
-                SizedBox(height: 40),
+                SizedBox(
+                  height: ScreenUtil().setHeight(40),
+                ),
                 TextFormField(
                   decoration: InputDecoration(
                     hintText: 'Password',
@@ -37,7 +40,9 @@ class LoginScreen extends StatelessWidget {
                   controller: passwordController,
                   obscureText: true,
                 ),
-                SizedBox(height: 80),
+                SizedBox(
+                  height: ScreenUtil().setHeight(80),
+                ),
                 ElevatedButton(
                   onPressed: () async {
                     await authController.signIn(

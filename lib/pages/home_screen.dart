@@ -4,6 +4,7 @@ import 'package:advanced_flutter/services/firestore_service.dart';
 import 'package:advanced_flutter/widgets/loading_widget.dart';
 import 'package:advanced_flutter/widgets/user_card_front_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -27,7 +28,7 @@ class HomeScreen extends StatelessWidget {
               child: ListView(
                 children: [
                   Container(
-                    height: 200,
+                    height: ScreenUtil().setHeight(200),
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         image : AssetImage('assets/images/leo.jpeg'),
@@ -37,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 16,
+                    height: ScreenUtil().setHeight(16),
                   ),
                   Text(
                     'USER INFORMATION',
@@ -47,10 +48,10 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 16,
+                    height: ScreenUtil().setHeight(16),
                   ),
                   Container(
-                    height: 200,
+                    height: ScreenUtil().setHeight(200),
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: userCards,

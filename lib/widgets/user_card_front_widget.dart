@@ -2,14 +2,15 @@ import 'package:advanced_flutter/models/user_model.dart';
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:firebase_storage/firebase_storage.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 Widget userCardFront(UserModel userModel) {
   return Row(
     children: [
       Column(children: [
         Container(
-          height: 130,
-          width: 160,
+          height: ScreenUtil().setHeight(130),
+          width: ScreenUtil().setWidth(160),
           decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
@@ -24,8 +25,8 @@ Widget userCardFront(UserModel userModel) {
           ),
         ),
         Container(
-          height: 70,
-          width: 160,
+          height: ScreenUtil().setHeight(70),
+          width: ScreenUtil().setWidth(160),
           decoration: BoxDecoration(
             border: Border.all(
               width: 1,
@@ -36,16 +37,20 @@ Widget userCardFront(UserModel userModel) {
           ),
           child: Column(
             children: [
-              SizedBox(height: 16),
+              SizedBox(
+                height: ScreenUtil().setHeight(16),
+              ),
               Text(userModel.name.toString()),
-              SizedBox(height: 4),
+              SizedBox(
+                height: ScreenUtil().setHeight(4),
+              ),
               Text(userModel.password.toString()),
             ],
           ),
         ),
       ]),
       SizedBox(
-        width: 8,
+        width: ScreenUtil().setWidth(8),
       ),
     ],
   );

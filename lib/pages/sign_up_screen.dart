@@ -1,5 +1,6 @@
 import 'package:advanced_flutter/controllers/auth_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 class SignUpScreen extends StatelessWidget {
@@ -27,18 +28,25 @@ class SignUpScreen extends StatelessWidget {
                   decoration: InputDecoration(hintText: 'Full Name'),
                   controller: nameController,
                 ),
-                SizedBox(height: 40),
+                SizedBox(
+                  height: ScreenUtil().setHeight(40),
+                ),
                 TextFormField(
                   decoration: InputDecoration(hintText: 'Email'),
                   controller: emailController,
                 ),
-                SizedBox(height: 40),
+                SizedBox(
+                  height: ScreenUtil().setHeight(40),
+                ),
                 TextFormField(
                   decoration: InputDecoration(hintText: 'Password'),
                   controller: passwordController,
                   obscureText: true,
                 ),
-                TextButton(
+                SizedBox(
+                  height: ScreenUtil().setHeight(40),
+                ),
+                ElevatedButton(
                   onPressed: () async {
                     var isCreated = await authController.createUser(
                         nameController.text,

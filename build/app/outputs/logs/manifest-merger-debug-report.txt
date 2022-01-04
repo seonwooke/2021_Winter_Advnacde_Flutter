@@ -47,6 +47,8 @@ MERGED from [:firebase_auth] /Users/seonwookkim/Documents/advanced_flutter/build
 MERGED from [:firebase_storage] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:sqflite] /Users/seonwookkim/Documents/advanced_flutter/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Users/seonwookkim/Documents/advanced_flutter/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-storage:20.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/abbff134ebf48dbf4fe1cef7f3e360c5/jetified-firebase-storage-20.0.0/AndroidManifest.xml:15:1-39:12
@@ -87,8 +89,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/seonwookkim/.g
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/d16e0b646f62ea91ed1bae2e41d92488/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/e9269813307a288ab090f81b77b724ec/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/01d6288f3bc0e0917fc5e32f13b06a3e/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/1db0c529fff9e904d8b858651554ffae/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.41.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a5175f94a7955273d7c099c637e49eaa/jetified-grpc-android-1.41.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/1db0c529fff9e904d8b858651554ffae/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/ec51d2b39b5955f0454103e6bc925ad4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/seonwookkim/Documents/advanced_flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/seonwookkim/Documents/advanced_flutter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -119,6 +121,10 @@ MERGED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/bui
 MERGED from [:cloud_firestore] /Users/seonwookkim/Documents/advanced_flutter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/seonwookkim/Documents/advanced_flutter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/seonwookkim/Documents/advanced_flutter/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/seonwookkim/Documents/advanced_flutter/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/seonwookkim/Documents/advanced_flutter/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/seonwookkim/Documents/advanced_flutter/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/06e335a88f29e892ea89e02a9cd741a6/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/f9fdcaaf23b11f7a45dfaa74b9544926/jetified-firebase-firestore-24.0.0/AndroidManifest.xml:7:5-9:41
@@ -199,10 +205,10 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seonwookkim/.gradl
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/e9269813307a288ab090f81b77b724ec/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/01d6288f3bc0e0917fc5e32f13b06a3e/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/01d6288f3bc0e0917fc5e32f13b06a3e/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/1db0c529fff9e904d8b858651554ffae/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/1db0c529fff9e904d8b858651554ffae/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.41.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a5175f94a7955273d7c099c637e49eaa/jetified-grpc-android-1.41.0/AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.41.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/a5175f94a7955273d7c099c637e49eaa/jetified-grpc-android-1.41.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/1db0c529fff9e904d8b858651554ffae/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/1db0c529fff9e904d8b858651554ffae/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/ec51d2b39b5955f0454103e6bc925ad4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/seonwookkim/.gradle/caches/transforms-2/files-2.1/ec51d2b39b5955f0454103e6bc925ad4/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/seonwookkim/Documents/advanced_flutter/android/app/src/debug/AndroidManifest.xml
