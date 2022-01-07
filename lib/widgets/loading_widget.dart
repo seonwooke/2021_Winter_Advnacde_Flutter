@@ -13,7 +13,7 @@ Widget loadingWidget() {
           width: 50.0,
           child: CircularProgressIndicator(
             strokeWidth: 7.0,
-            valueColor: AlwaysStoppedAnimation<Color>(Colors.blueAccent),
+            valueColor: AlwaysStoppedAnimation<Color>(Colors.tealAccent),
           ),
         ),
       ),
@@ -34,7 +34,7 @@ Widget loadingWidgetSub() {
           width: 50.0,
           child: CircularProgressIndicator(
             strokeWidth: 7.0,
-            valueColor: AlwaysStoppedAnimation<Color>(Colors.blueAccent),
+            valueColor: AlwaysStoppedAnimation<Color>(Colors.tealAccent),
           ),
         ),
       ),
