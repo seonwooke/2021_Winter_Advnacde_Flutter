@@ -9,6 +9,7 @@ import 'package:get/get.dart';
 
 class HomeScreen extends StatelessWidget {
   final authController = Get.find<AuthController>();
+
   @override
   Widget build(BuildContext context) {
     return StreamBuilder(

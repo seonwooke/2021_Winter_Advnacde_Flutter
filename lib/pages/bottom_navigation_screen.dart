@@ -43,8 +43,8 @@ class _BottomNavigationScreenState extends State<BottomNavigationScreen> {
                 backgroundColor: Colors.teal,
               ),
               BottomNavigationBarItem(
-                icon: Icon(CupertinoIcons.sportscourt),
-                label: 'NEWS',
+                icon: Icon(CupertinoIcons.search),
+                label: 'SEARCH',
                 backgroundColor: Colors.teal,
               ),
               BottomNavigationBarItem(
