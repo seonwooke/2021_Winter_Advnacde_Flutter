@@ -47,7 +47,8 @@ class LoginScreen extends StatelessWidget {
                   onPressed: () async {
                     await authController.signIn(
                         emailController.text, passwordController.text);
-                    Get.offAllNamed('/navigation');
+                    // Get.offAllNamed('/navigation');
+                    Get.toNamed('/userInfo');
                   },
                   child: Text('LOGIN'),
                   style: ElevatedButton.styleFrom(

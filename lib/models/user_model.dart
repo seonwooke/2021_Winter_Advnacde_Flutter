@@ -24,4 +24,19 @@ class UserModel {
       email = map['email'],
       password = map['password'],
       image = map['image'];
+
+  //QuerySnapshot : Collection.get
+  //DocumentSnapshot : Document.get
+  List<UserModel> userListFromSnapshot(QuerySnapshot querySnapshot) {
+    return querySnapshot.docs.map((snapshot) {
+      final Map<String, dynamic> UserMap = snapshot.data() as Map<String, dynamic>;
+
+      return UserModel(
+        name: UserMap['name'],
+        email: UserMap['email'],
+        password: UserMap['password'],
+        image: UserMap['image'],
+      );
+    }).toList();
+  }
 }

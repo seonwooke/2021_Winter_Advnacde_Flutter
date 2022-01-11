@@ -7,6 +7,7 @@ import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 import 'controllers/navigation_controller.dart';
+import 'controllers/user_info_controller.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized(); // 공부하기
@@ -17,6 +18,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   final navigationController = Get.put(NavigationController());
   final authController = Get.put(AuthController());
+  final userInfoController = Get.put(UserInfoController());
 
   @override
   Widget build(BuildContext context) {

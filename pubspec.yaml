@@ -28,6 +28,12 @@ dependencies:
   cached_network_image: ^3.2.0
   google_fonts: ^2.2.0
   carousel_slider: ^4.0.0
+  material_floating_search_bar: ^0.3.6
+  firestore_search: ^0.1.9
+  cupertino_progress_bar: ^0.2.0
+  syncfusion_flutter_gauges: ^19.4.42
+  chip_list: ^2.3.3+8
+  chips_choice_null_safety: ^2.0.4
 
 dev_dependencies:
   flutter_test:

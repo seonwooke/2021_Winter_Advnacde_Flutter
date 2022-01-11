@@ -35,7 +35,8 @@ class _SplashScreenState extends State<SplashScreen> {
   Future<void> _goToHome() async {
     await Future.delayed(Duration(seconds: 3));
     WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
-      Get.offAllNamed(Routes.NAVIGATION);
+      // Get.offAllNamed(Routes.NAVIGATION);
+      Get.offAllNamed(Routes.USERINFO);
     });
   }
 

@@ -10,4 +10,6 @@ abstract class Routes {
   static const STARTING = '/starting';
   static const CHATTING = '/chatting';
   static const SEARCH = '/search';
+  static const USERINFO = '/userInfo';
+  static const INTERESTTEST = '/interestTest';
 }

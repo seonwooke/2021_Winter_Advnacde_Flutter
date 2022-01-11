@@ -128,6 +128,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "chip_list",
+      "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/chip_list-2.3.3+8",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "chips_choice_null_safety",
+      "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/chips_choice_null_safety-2.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "cli_util",
       "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/cli_util-0.3.5",
       "packageUri": "lib/",
@@ -184,6 +196,12 @@
     {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "cupertino_progress_bar",
+      "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_progress_bar-0.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -262,6 +280,12 @@
     {
       "name": "firebase_storage_web",
       "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-3.2.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firestore_search",
+      "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/firestore_search-0.1.9",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -424,6 +448,12 @@
     {
       "name": "matcher",
       "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.11",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "material_floating_search_bar",
+      "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/material_floating_search_bar-0.3.6",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -627,7 +657,13 @@
     },
     {
       "name": "syncfusion_flutter_core",
-      "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_core-19.4.40",
+      "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_core-19.4.42",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_flutter_gauges",
+      "rootUri": "file:///Users/seonwookkim/development/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_gauges-19.4.42",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -710,7 +746,7 @@
       "languageVersion": "2.15"
     }
   ],
-  "generated": "2022-01-08T05:11:20.379974Z",
+  "generated": "2022-01-11T09:54:56.121097Z",
   "generator": "pub",
   "generatorVersion": "2.15.1"
 }

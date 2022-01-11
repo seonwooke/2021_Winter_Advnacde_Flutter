@@ -148,6 +148,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+  chip_list:
+    dependency: "direct main"
+    description:
+      name: chip_list
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.3.3+8"
+  chips_choice_null_safety:
+    dependency: "direct main"
+    description:
+      name: chips_choice_null_safety
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.4"
   cli_util:
     dependency: transitive
     description:
@@ -218,6 +232,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
+  cupertino_progress_bar:
+    dependency: "direct main"
+    description:
+      name: cupertino_progress_bar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.0"
   dart_style:
     dependency: transitive
     description:
@@ -309,6 +330,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.2.5"
+  firestore_search:
+    dependency: "direct main"
+    description:
+      name: firestore_search
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.9"
   fixnum:
     dependency: transitive
     description:
@@ -492,6 +520,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.11"
+  material_floating_search_bar:
+    dependency: "direct main"
+    description:
+      name: material_floating_search_bar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.6"
   meta:
     dependency: transitive
     description:
@@ -727,7 +762,14 @@ packages:
       name: syncfusion_flutter_core
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "19.4.40"
+    version: "19.4.42"
+  syncfusion_flutter_gauges:
+    dependency: "direct main"
+    description:
+      name: syncfusion_flutter_gauges
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "19.4.42"
   synchronized:
     dependency: transitive
     description:
