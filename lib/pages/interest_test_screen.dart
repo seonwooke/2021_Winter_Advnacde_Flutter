@@ -15,7 +15,6 @@ class InterestTestScreen extends StatelessWidget {
     "Four",
     "Five",
     "Six",
-    "Seven",
   ];
 
   @override
